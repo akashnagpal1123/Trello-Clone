@@ -1,14 +1,20 @@
 .App {
-  background: rgb(75, 191, 107);
+  background: #ececec;
   height: 100vh;
+}
+.Navbar{
+  height: 15vh;
 }
 
 .Header {
-  background: rgba(0, 0, 0, 0.15);
-  color: white;
-  padding: 5px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-  text-align: center;
+
+  background: #606469 ;
+  color: #03009b;
+  padding: 20px ;
+  margin-left: 0px;
+  border-bottom: 1px solid rgba(98, 0, 255, 0.12);
+  text-align: left;
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 500;
 }
+

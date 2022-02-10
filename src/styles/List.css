@@ -1,12 +1,13 @@
 .List {
-  background: #dfe3e6;
+  background: #ffe4c4;
   flex-shrink: 0;
   width: 272px;
   height: fit-content;
-  margin: 10px;
+  margin: 15px;
   margin-right: 0;
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0px 35px 0px 35px;
+  border-right: 3.5px solid #adadad;
+  border-bottom: 3.5px solid #adadad;
 }
 
 .List-Title {
@@ -18,15 +19,17 @@
 .Toggle-Add-Card {
   cursor: pointer;
   padding: 10px;
-  color: #6b808c;
-  border-radius: 0 0 10px 10px;
+  color: #03009b;
+  font-weight: 500;
+  border-radius:0px 35px 0px 35px;
   display: flex;
   align-items: center;
 }
 
 .Toggle-Add-Card:hover {
-  background-color: rgba(9, 45, 66, 0.13);
-  color: #17394d;
+  background-color: #03009b;
+  color: #ffffff;
+  font-weight: 700;
   text-decoration: underline;
 }
 

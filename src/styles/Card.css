@@ -1,7 +1,7 @@
 .Card {
   position: relative;
   cursor: pointer;
-  background: white;
+  background: rgb(255, 255, 255);
   margin: 5px;
   padding: 10px;
   border-radius: 5px;
@@ -13,7 +13,7 @@
 }
 
 .Card:hover {
-  background: #f5f6f7;
+  background: #ffffff;
 }
 
 .Card-Icons {
@@ -34,12 +34,13 @@
   justify-content: center;
   border-radius: 5px;
   margin: 1px;
-  color: rgba(0, 0, 0, 0.5);
-  background: #f5f6f7;
+  color: rgb(255, 255, 255);
+  background: #000000a9;
   opacity: 0.9;
 }
 
 .Card-Icon:hover {
   opacity: 1;
-  background: rgba(220, 220, 220, 1);
+  color: #ffffff;
+  background: rgb(0, 0, 0);
 }
